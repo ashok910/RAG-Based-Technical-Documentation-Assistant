@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Environment
+.env
+*.env.local
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Data / vector store (large, regenerable)
+data/
+*.faiss
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Pytest
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Logs
+*.log
+logs/
+
+# Node (if any frontend build)
+node_modules/
